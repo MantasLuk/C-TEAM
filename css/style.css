@@ -1,146 +1,39 @@
 /*CSS file*/
 body {
-	background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-7.jpg);
+	background-image: url(http://forrestkyle.com/wp-content/uploads/2017/03/Blue-Wallpaper-40-HD-Desktop.jpg);
 	size: 50%;
-
 }
 
-h2{
-	color: white;
+h3 {
 	text-align: center;
-	padding: 5px;
 }
-body b{
-	color: white;
-	text-align: center;
-	margin:5px;
-}
-input{
-    width: 430px;
-	margin: 0 auto;
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-#main-wrapper{
-	border-radius : 10px;
-	background-color: rgba(0,0,255 0.5);
-	border: 3px solid #f1f1f1;
-	width: 500px;
-	top: 100px;
-	margin: 0 auto;
-}
-.inner_container{
-	width:450px;
-	margin:0 auto;
-}
-.login_button {
-    background-color: #99ccff;
-    color: white;
-	margin-top:10px;
-    padding:10px;
-    width: 100%;
-	font-size:18px;
-	font-weight: bold;
-}
-.register_btn{
-	background-color: #ffb3b3;
-    color: white;
-	margin-top:10px;
-	margin-bottom:15px;
-	padding:10px;
-    width: 100%;
-	font-size:16px;
-	font-weight: bold;
-	
-}
-.back_btn{
-	margin-top:10px;
-	color: white;
-	margin-bottom:15px;
-    padding: 10px;
-    background-color: #e67e22;
-}
-.logout-btn{
-	background-color: #c0392b;
-    color: white;
-	margin-top:10px;
-    padding:5px;
-    width: 100px;
-	font-size:18px;
-	font-weight: bold;
-	position:relative;
-	left:1000px;
-}
-
-.sign_up_btn {
-	background-color: #3498db;
-    color: white;
-	 padding:10px;
-	margin-top:10px;
-	margin-bottom:10px;
-    width: 100%;
-	font-size:16px;
-	font-weight: bold;
-}
-
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-}
-
-img.avatar {
-    width: 30%;
-    border-radius: 50%;
-}
-
-.container {
-    margin: 16px;
-	width:100%;
-}
-#head-wrapper{
-		border-radius : 10px;
-	background-color: rgb(1,28,47);
-	width: 100%;
-	top:0;
-	right: 0;;
-	position: fixed;
-	z-index: 1
-}
-
-.navig{
-		border-radius : 10px;
-	background-color: rgba(0,0,255 0.5);
-	
-	width: 1100px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	margin: 0 auto
-	z-index:0;
-	position: relative;
-	left: 400px;
+#navig{
+	    margin: 0 auto;
+        width: 1100px;
+        position: relative;
+        
 
 }
-	 h3 {
-		color:white;
-		position: absolute;
-		left: 700px;
-	}
 
-
-
-.navig img {
+#navig img {
 	width: 10%;
 	position: relative;
-	right:300px;
+	display:inline-block;
+	box-sizing: border-box;	
+}
+#navig h2{
+	font-size: 60px;
+	color: white;
+	position: relative;
+	 text-shadow: 8px 3px 8px red;
 	display:inline-block;
 	box-sizing: border-box;
 
-	
-}
-.navig nav {
+
+}		
+#navig nav {
 	position:relative;
-	left:200px;
+	left:360px;
 	display:inline-block;
 	box-sizing: border-box;
 	
@@ -157,7 +50,7 @@ nav ul ul {
 	background: transparent; 
 	background: linear-gradient(top, blue 20%, #bbbbbb 80%);  
 	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
-	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #0f36ee 0%,#181717 100%); 
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	padding: 0 20px;
 	border-radius: 10px;  
@@ -183,11 +76,11 @@ nav ul ul {
 	
 	nav ul li a {
 		display: block; padding: 25px 40px;
-		color: #757575; text-decoration: none;
+		color: white; text-decoration: none;
 	}
 
 	nav ul ul {
-	background: green; border-radius: 10px; padding: 0;
+	background: #79bbe8; border-radius: 10px; padding: 0;
 	position: absolute; top: 100%;
 }
 	nav ul ul li {
@@ -198,7 +91,7 @@ nav ul ul {
 	}
 		nav ul ul li a {
 			padding: 15px 40px;
-			color: #fff;
+			color: white;
 		}	
 			nav ul ul li a:hover {
 				background: #4b545f;
@@ -230,11 +123,12 @@ border-radius : 10px;
 	padding:40px;
 	height: 200px;
 	position: relative
+	border-radius:10px;
 }
 .body p{
-	width: 1010px;
-	padding:40px;
-	height: 200px;
+	width: 920px;
+	height: 200px;	
+	margin:0 auto;
 }
 
 
@@ -243,111 +137,121 @@ border-radius : 10px;
 	position:relative;
 	width:300px;
 	display:inline-block;
-	border:box;
-	margin-left: 20px;
+    box-sizing: border-box;
+    left :50px;
+	
 
 }
 .pirmas img{
 position:relative;
-	height: 300px;
-	width:300px;
+	height: 200px;
+	width:200px;
 	border-radius: 50%;
-}
-.pirmas b {
-	text-align: center;
-}
+	}
+
+
 .pirmas p{
 	width: 300px;
+	height: 300px;
 	position:relative;
+	overflow: auto;
+	
 }
 
 .pirmas .pirmas-btn{
-	background-color: grey;
+	background-color: #9370DB;
+
     color: black;
 	 padding:10px;
 	margin-top:10px;
 	margin-bottom:10px;
-    width: 100%;
+    width: 200px;
 	font-size:16px;
 	font-weight: bold;
 	position:relative;
-	left:40px;
+	
 
 }
 
 .antras{
 	position:relative;
 	width:300px;
-display:inline-block;
-	border:box;
-	margin:30px;
+	display:inline-block;
+    box-sizing: border-box;
+    left :90px;
 
 }
 	.antras img{
 
 position:relative;
-	height: 300px;
-	width:300px;
+	height: 200px;
+	width:200px;
 	border-radius: 50%;
+	
 }
 
-.antras b {
-	text-align: center;
-}
+
 
 .antras p{
 	width: 300px;
+	height: 300px;
 	position:relative;
-
+	overflow: auto;
 }
 
 .antras .antras-btn{
-	background-color: grey;
+	background-color: #9370DB;
     color: black;
 	 padding:10px;
 	margin-top:10px;
 	margin-bottom:10px;
-    width: 100%;
+    width: 200px;
 	font-size:16px;
 	font-weight: bold;
 	position:relative;
-	left:40px;
+	left: 25px;
+	
 }
 .trecias{
 	position:relative;
 	width:300px;
     display:inline-block;
-	border:box;
+    box-sizing: border-box;
+    left :130px;
+	
 }
 
 	.trecias img{
 position:relative;
-	height: 300px;
-	width:300px;
+	height: 200px;
+	width:200px;
 	border-radius: 50%;
+	
 }
 
-.trecias b {
-	text-align: center;
-	width: 300px;
-	position:relative;
-}
+
 
 .trecias p{
 	width: 300px;
+	height: 300px;
 	position:relative;
+	overflow: auto;
+	
 }
 
 
 .trecias .trecias-btn{
-	background-color: grey;
+	background-color: #9370DB;
     color: black;
 	 padding:10px;
 	margin-top:10px;
 	margin-bottom:10px;
-    width: 100%;
+    width: 200px;
 	font-size:16px;
 	font-weight: bold;
 	position:relative;
-	left:40px;
+	left: 25px;
 }
+
+
+
