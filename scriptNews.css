@@ -1,0 +1,29 @@
+.class-button1 {
+    background: url(https://www.facebook.com/mantas.lukosius.75/about?lst=100006727933183%3A1273258635%3A1490805485);
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+}
+
+  p.font1 {
+    font-family: "Times New Roman", Times, italic; color: yellow;
+}
+
+  p.font2 {
+    font-family: Arial, Helvetica, bold; color: green;
+}
+
+  p.font3 {
+    font-family: Impact, sans-serif; color: red;
+}
+
+p.font4 {
+    font-family: "Arial Black", Gadget, sans-serif; color: purple;
+}
+
+.circle-photo {
+    width: 100%;
+}
